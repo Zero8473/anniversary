@@ -42,9 +42,16 @@ body{
   margin-right: auto;
   list-style: none;
   color: #fff;
+  flex-wrap: wrap;
+
+
 
   li {
     font-size: var(--nav-font-size);
+    &:hover{
+      cursor: pointer;
+      color:#994626;
+    }
   }
 }
 

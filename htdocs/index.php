@@ -1,7 +1,6 @@
 <?php
 /*code for interchangeable section*/
-$path = "Content/";
-
+/*$path = "Content/";*/
 
 
 /*HTML content*/
