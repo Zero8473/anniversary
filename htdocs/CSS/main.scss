@@ -1,0 +1,55 @@
+@import "variables.css";
+
+/*browser reset*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 60px;
+}
+
+.header-container{
+  margin-bottom: 40px;
+}
+
+.center-screen{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*navigation section*/
+.nav-container{
+  width: 1920px;
+  max-width: 100%;
+  background-color: cadetblue;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+}
+
+.nav-content-container {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+  color: #fff;
+
+  li {
+    font-size: var(--nav-font-size);
+  }
+}
+
+
+.header{
+  max-width: 1500px;
+  text-align: center;
+}
