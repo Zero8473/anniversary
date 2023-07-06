@@ -4,4 +4,4 @@
 
 
 /*HTML content*/
-require_once "Content/main.html";
+require_once "Content/main.php";

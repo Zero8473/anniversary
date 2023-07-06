@@ -39,12 +39,35 @@ body {
   flex-wrap: wrap; }
   .nav-content-container li {
     font-size: var(--nav-font-size); }
-    .nav-content-container li:hover {
+  .nav-content-container a {
+    text-decoration: none;
+    color: white; }
+    .nav-content-container a:visited {
+      color: white; }
+    .nav-content-container a:hover {
       cursor: pointer;
-      color: #994626; }
+      color: #994626;
+      transition: all 0.3s; }
 
+/*top header*/
 .header {
   max-width: 1500px;
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  z-index: 1; }
+
+/*hero image*/
+.hero-image {
+  width: 100%;
+  max-width: 1920px;
+  margin-top: -50px;
+  background-color: grey;
+  z-index: 0; }
+  .hero-image img {
+    width: 100%;
+    height: 900px;
+    z-index: -1; }
 
 /*# sourceMappingURL=main.css.map */
