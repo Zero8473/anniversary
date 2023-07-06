@@ -63,7 +63,7 @@ body {
   width: 100%;
   max-width: 1920px;
   margin-top: -50px;
-  background-color: grey;
+  /*background-color: grey;*/
   z-index: 0; }
   .hero-image img {
     width: 100%;

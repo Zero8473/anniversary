@@ -29,7 +29,7 @@
     </div>
 </div>
 
-
+<!--Add isolation layer to darken the background image-->
 <figure class="hero-image">
     <img src="Images/MioBassBlue.png" alt="hero image"/>
 </figure>
