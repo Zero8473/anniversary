@@ -8,11 +8,16 @@
 }
 
 body{
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
   margin-top: 60px;
 }
 
+
+
+
+
+/*header*/
 .header-container{
   margin-bottom: 40px;
 }
@@ -21,6 +26,9 @@ body{
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
 
 /*navigation section*/
 .nav-container{
@@ -57,7 +65,7 @@ body{
     }
     &:hover{
       cursor: pointer;
-      color:#994626;
+      color:#FF5F15;
       transition: all 0.3s;
     }
   }
@@ -65,28 +73,103 @@ body{
 
 
 
-/*top header*/
-.header{
+
+/*hero image*/
+.hero-container{
+  height: 900px;
+  display: grid;
+  place-content: center;
+  position: relative;
+  isolation: isolate;
+  top:-15px;
+  background-color: black;
+  &:after{
+    content: '';
+    position: absolute;
+    background-image: var(--hero-image);
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    inset: 0;
+    z-index: -1;
+  }
+}
+
+
+/*hero text*/
+.hero-text{
   max-width: 1500px;
   text-align: center;
   position: absolute;
   left: 55%;
   top: 50%;
   z-index: 1;
-}
-
-
-/*hero image*/
-.hero-image{
-  width: 100%;
-  max-width: 1920px;
-  margin-top: -50px;
-  /*background-color: grey;*/
-  z-index: 0;
-
-  img{
-    width: 100%;
-    height: 900px;
-    z-index: -1;
+  h1{
+    font-size: 48px;
+    font-family: roboto;
+    color: #fff;
+    letter-spacing: 1.5px;
   }
 }
+
+/*portrait section*/
+.portrait-background{
+  width: 100%;
+  height: 800px;
+  padding-top: 30px;
+  padding-left: 100px;
+  display: flex;
+  align-items: center;
+  background-color:#348F7E;
+  border: 2px solid orange;
+
+
+}
+.portrait-container{
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid purple;
+
+}
+.card-container{
+  width: 100%;
+  max-width: 400px;
+  height: 600px;
+  border: 2px solid red;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px black;
+  figure{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    img{
+      width: 100%;
+      max-width: 320px;
+      height: auto;
+      border: 2px solid black;
+      border-radius: 30px 50px;
+    }
+  }
+  .img-text{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+
+
+.spacer{
+  display: none;
+  width: 100%;
+  height: 500px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+

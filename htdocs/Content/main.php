@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="CSS/main.css" type="text/css">
-    <title>anniversary</title>
+    <title>OwO</title>
 
 </head>
 
@@ -21,18 +21,41 @@
             <li>Test</li>-->
         </ul>
     </div>
+</div>
 
-    <div class="header center-screen">
+
+<div class="hero-container">
+    <div class="hero-text center-screen">
         <h1>
             This is a new website
         </h1>
     </div>
 </div>
+<div class="portrait-background">
+    <div class="portrait-container">
+        <div class="card-container">
+            <figure>
+                <img src="https://i.pinimg.com/736x/d0/e8/29/d0e829fd68a99cdee91e1c2ceb509439.jpg">
+            </figure>
+            <div class="img-text">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    Hic quia repudiandae et aliquid
+                    veniam qui voluptatibus enim qui
+                    voluptas impedit id beatae eaque.
+                    Aut debitis voluptatem sed animi
+                    beatae qui voluptatum sint.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
 
-<!--Add isolation layer to darken the background image-->
-<figure class="hero-image">
-    <img src="Images/MioBassBlue.png" alt="hero image"/>
-</figure>
+
+
+<div class="spacer">
+
+</div>
 
 
 </body>
