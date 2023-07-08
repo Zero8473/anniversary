@@ -74,8 +74,8 @@ body {
   max-width: 1500px;
   text-align: center;
   position: absolute;
-  left: 55%;
-  top: 50%;
+  left: 10%;
+  top: 40%;
   z-index: 1; }
   .hero-text h1 {
     font-size: 48px;
@@ -87,15 +87,25 @@ body {
 .turqoise-background {
   width: 100%;
   height: 800px;
-  /*padding-top: 30px;*/
-  /*padding-left: 100px;*/
   margin-bottom: 120px;
-  display: flex;
-  align-items: center;
   background-color: #348F7E;
   /*
   border: 2px solid orange;
   */ }
+
+.topic {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  margin-bottom: -30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #dc0050; }
+
+.container-center {
+  height: 100%;
+  display: flex;
+  align-items: center; }
 
 .portrait-container {
   width: 100%;
@@ -114,15 +124,17 @@ body {
   height: 600px;
   border: 2px solid red;
   border-radius: 15px;
-  box-shadow: 3px 3px 10px black; }
+  box-shadow: 0px 3px 10px 2px black; }
   .card-container figure {
     width: 80%;
+    height: 320px;
     margin-left: auto;
     margin-right: auto; }
     .card-container figure img {
       width: 100%;
       max-width: 320px;
-      height: auto;
+      height: 100%;
+      background-color: #fff;
       border: 2px solid black;
       border-radius: 30px 50px; }
   .card-container .img-text {
@@ -139,11 +151,13 @@ body {
 .gallery-container {
   width: 100%;
   max-width: 1920px;
+  height: 414px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   margin-bottom: 120px;
-  padding: 10px; }
+  padding-left: 10px;
+  padding-right: 10px; }
 
 .image-container {
   width: 33%;
@@ -151,11 +165,16 @@ body {
   display: grid;
   place-content: center;
   position: relative;
-  overflow: hidden; }
-  .image-container .gallery-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; }
+  overflow: hidden;
+  flex-wrap: wrap; }
+  .image-container .gallery-image {
+    height: 414px; }
+    .image-container .gallery-image img {
+      width: 100%;
+      height: 414px;
+      min-height: 150px;
+      min-width: 150px;
+      object-fit: cover; }
   .image-container:hover .gallery-text {
     display: block; }
 
@@ -165,7 +184,8 @@ body {
   height: 100%;
   background-size: cover;
   background-position: center;
-  z-index: 5; }
+  z-index: 5;
+  text-align: center; }
   .gallery-text p {
     position: relative;
     top: 50%;
@@ -180,7 +200,8 @@ body {
     opacity: 0.55;
     inset: 0;
     position: absolute;
-    z-index: -1; }
+    z-index: -1;
+    overflow: hidden; }
 
 /*footer*/
 .footer {
@@ -192,6 +213,7 @@ body {
     margin-left: auto !important;
     margin-right: auto !important;
     font-size: 48px;
+    text-align: center;
     color: #fff; }
 
 .spacer {
