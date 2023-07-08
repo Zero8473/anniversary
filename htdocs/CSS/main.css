@@ -84,15 +84,18 @@ body {
     letter-spacing: 1.5px; }
 
 /*portrait section*/
-.portrait-background {
+.turqoise-background {
   width: 100%;
   height: 800px;
-  padding-top: 30px;
-  padding-left: 100px;
+  /*padding-top: 30px;*/
+  /*padding-left: 100px;*/
+  margin-bottom: 120px;
   display: flex;
   align-items: center;
   background-color: #348F7E;
-  border: 2px solid orange; }
+  /*
+  border: 2px solid orange;
+  */ }
 
 .portrait-container {
   width: 100%;
@@ -101,7 +104,9 @@ body {
   margin-right: auto;
   display: flex;
   justify-content: space-between;
-  border: 2px solid purple; }
+  /*
+  border: 2px solid purple;
+  */ }
 
 .card-container {
   width: 100%;
@@ -127,10 +132,70 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
-    font-style: italic; }
+    font-style: italic;
+    color: #fff; }
+
+/*gallery section*/
+.gallery-container {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 120px;
+  padding: 10px; }
+
+.image-container {
+  width: 33%;
+  height: 100%;
+  display: grid;
+  place-content: center;
+  position: relative;
+  overflow: hidden; }
+  .image-container .gallery-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  .image-container:hover .gallery-text {
+    display: block; }
+
+.gallery-text {
+  display: none;
+  position: absolute;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: 5; }
+  .gallery-text p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff; }
+  .gallery-text:after {
+    content: '';
+    background-color: #FF5F15;
+    opacity: 0.55;
+    inset: 0;
+    position: absolute;
+    z-index: -1; }
+
+/*footer*/
+.footer {
+  height: 400px !important;
+  margin-bottom: 0 !important; }
+  .footer p {
+    width: 100%;
+    max-width: 1500px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    font-size: 48px;
+    color: #fff; }
 
 .spacer {
-  /*display: none;*/
+  display: none;
   width: 100%;
   height: 500px;
   margin-top: 50px;
