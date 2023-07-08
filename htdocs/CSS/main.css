@@ -150,6 +150,7 @@ body {
 /*gallery section*/
 .gallery-container {
   width: 100%;
+  max-width: 1920px;
   height: 414px;
   display: flex;
   justify-content: space-between;
