@@ -12,13 +12,9 @@
 <div class="header-container ">
     <div class="nav-container">
         <ul class="nav-content-container">
-            <?php for($i = 0; $i < 3; $i++){
-                echo "<li><a href='#'>Test $i</a></li>";
-
-            }?>
-           <!-- <li>Test</li>
-            <li>Test</li>
-            <li>Test</li>-->
+            <li><a href='#'>Test1</a></li>
+            <li><a href='#'>Test2</a></li>
+            <li><a href='#'>Test3</a></li>
         </ul>
     </div>
 </div>
