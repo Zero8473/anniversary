@@ -48,6 +48,38 @@
                 </p>
             </div>
         </div>
+
+        <div class="card-container">
+            <figure>
+                <img src="https://i.pinimg.com/736x/d0/e8/29/d0e829fd68a99cdee91e1c2ceb509439.jpg">
+            </figure>
+            <div class="img-text">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    Hic quia repudiandae et aliquid
+                    veniam qui voluptatibus enim qui
+                    voluptas impedit id beatae eaque.
+                    Aut debitis voluptatem sed animi
+                    beatae qui voluptatum sint.
+                </p>
+            </div>
+        </div>
+
+        <div class="card-container">
+            <figure>
+                <img src="https://i.pinimg.com/736x/d0/e8/29/d0e829fd68a99cdee91e1c2ceb509439.jpg">
+            </figure>
+            <div class="img-text">
+                <p>
+                    Lorem ipsum dolor sit amet.
+                    Hic quia repudiandae et aliquid
+                    veniam qui voluptatibus enim qui
+                    voluptas impedit id beatae eaque.
+                    Aut debitis voluptatem sed animi
+                    beatae qui voluptatum sint.
+                </p>
+            </div>
+        </div>
     </div>
 </div>
 
